@@ -50,6 +50,8 @@ gestures {
 input {
     keyboard {
         xkb {
+            // Without this, some apps will default to US (like intellij)
+            layout "pt"
         }
         numlock
     }
